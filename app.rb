@@ -12,7 +12,7 @@ class App < Sinatra::Base
     erb :reversed
   end
 
-  get 'reversed' do
+  get '/reversed' do
 
     erb :reversed
   end
